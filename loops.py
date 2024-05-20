@@ -24,9 +24,9 @@ def index_of(word, list):
         if valor == word:
             return indice
     return -1
-lista = ["Red","Green","White","Black","Pink","Yellow","Black"]
-print(index_of("Black", lista))
-print(index_of("Blue", lista))
+colors = ["Red","Green","White","Black","Pink","Yellow","Black"]
+print(index_of("Black", colors))
+print(index_of("Blue", colors))
 
 
 def put(word, list):
@@ -35,8 +35,8 @@ def put(word, list):
             list[indice]=word
             return indice
     return -1
-lista = ["Red","Green","","","Pink","","Black"]
-print(put("Black", lista))
+colors = ["Red","Green","","","Pink","","Black"]
+print(put("Black", colors))
 
 
 def remove(word,list):
